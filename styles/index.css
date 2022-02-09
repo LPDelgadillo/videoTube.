@@ -67,4 +67,58 @@ main{
         color: #181818;
     }
 
-    
+.contVideos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .contVideo{
+        width: 300px;
+        font-family: "Poppins";
+        font-weight: 700px;
+        color: #FFF;
+        margin-top: 30px;
+
+
+    }
+        .imgPortada{
+            width: 300px;
+        }
+        .textMinutos{
+            position: absolute;
+            background-color: #181818;
+            font-size: 14px;
+            padding: 2px 7px;
+            left: 36%;
+            bottom: 64vh;
+            font-weight: 400;
+            font-family: "Poppings";
+        }
+
+        .contInfo{
+            display: flex;
+            align-items: flex-start;
+            gap: 7px;
+        }
+
+            .avatar{
+                width: 40px;
+            }
+
+            .contDescripcion{
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+            }
+                .titleVideo{
+                    font-size: 16px;
+                    word-wrap: break-word;
+                }
+                .titleAutor, .views{
+                    color: #A3A3A3;
+                    font-weight: 400;
+                    word-wrap: break-word;
+                }
+
+        
