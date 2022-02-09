@@ -1,64 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
-body{
+body {
     background-color: #181818;
 }
 
-header{
+header {
     width: 95%;
     margin: 0 auto;
     display: flex;
     gap: 40px;
-}   
-    .barraBusqueda{
-        display: flex;
-        align-items: center;    
-    }
+}
 
+    .barra_busqueda{
+        display: flex;
+        align-items: center;
+    }
         .busqueda{
             padding: 5px 10px;
             outline: none;
-            font-family: "Poppins";
+            font-family: 'Poppins';
             font-weight: 400;
-            width: 16rem;
+            width: 16rem; /* 1rem = 16px */
             border: 2px solid #373737;
-            border-radius: 7px 0 0 7px ;
             border-right: none;
+            border-radius: 7px 0 0 7px;
             background-color: #181818;
             color: #A3A3A3;
-
         }
 
-        .btnBusqueda{
-            background: #373737;
+        .btn{
+            background-color: #373737;
             border: none;
             padding: 3.4px;
-            border: 0 5px 5px 0;
             width: 4rem;
+            border-radius: 0 5px 5px 0;
             cursor: pointer;
         }
-main{
-    margin: 30px auto 0 auto;
-    width: 95%;
-}
 
+main {
+    width: 95%;
+    margin: 30px auto 0 auto;
+}
     .contFiltros{
         display: flex;
-        gap: 30px;
+        gap: 25px;
     }
-
     .btnFiltros{
         padding: 7px 10px;
         border-radius: 18px;
         border: 1px solid #6F6F6F;
         background-color: #373737;
         color: #FFF;
-        font-family: "Poppins";
+        font-family: 'Poppins';
         cursor: pointer;
     }
 
@@ -73,39 +72,36 @@ main{
     justify-content: space-between;
 }
 
-    .contVideo{
+    .contVideo {
         width: 300px;
-        font-family: "Poppins";
-        font-weight: 700px;
+        font-family: 'Poppins';
+        font-weight: 700;
         color: #FFF;
-        margin-top: 30px;
-
-
+        margin-top: 40px;
+        cursor: pointer;
     }
         .imgPortada{
             width: 300px;
+            height: 170px;
         }
         .textMinutos{
             position: absolute;
             background-color: #181818;
             font-size: 14px;
-            padding: 2px 7px;
-            left: 36%;
-            bottom: 64vh;
+            padding: 2px 5px;
+            left: 280px;
+            bottom: 57vh;
+            font-family: 'Poppins';
             font-weight: 400;
-            font-family: "Poppings";
         }
-
         .contInfo{
             display: flex;
             align-items: flex-start;
             gap: 7px;
         }
-
             .avatar{
                 width: 40px;
             }
-
             .contDescripcion{
                 display: flex;
                 flex-direction: column;
@@ -115,10 +111,8 @@ main{
                     font-size: 16px;
                     word-wrap: break-word;
                 }
-                .titleAutor, .views{
+                .titleAutor, .views {
                     color: #A3A3A3;
                     font-weight: 400;
                     word-wrap: break-word;
                 }
-
-        

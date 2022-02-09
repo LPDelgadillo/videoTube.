@@ -4,41 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <title>VideoTube</title>
 </head>
 <body>
-    <!-- NavBar -->
+    <!-- Navbar -->
     <header>
-        <img src="./images/videotube.png" alt="logo videoTube">
-        <div class="barraBusqueda">
+        <img src="./images/videotube.png" alt="logo videotube">
+        <div class="barra_busqueda">
             <input id="busqueda" class="busqueda" type="text" placeholder="Buscar Video">
-            <button class="btnBusqueda" id="btnBusqueda"><img src="https://i.ibb.co/f1ZJFqb/search.png" alt=""></button>
+            <button class="btn" id="btnBusqueda"><img src="https://i.ibb.co/f1ZJFqb/search.png" alt=""></button>
         </div>
     </header>
-    <!-- videos -->
+    <!-- Videos -->
     <main>
         <div class="contFiltros">
             <button class="btnFiltros active">Todos</button>
-            <button class="btnFiltros active">Música</button>
-            <button class="btnFiltros active">Programación</button>
-            <button class="btnFiltros active">Diseño UX</button>
+            <button class="btnFiltros">Música</button>
+            <button class="btnFiltros">Programación</button>
+            <button class="btnFiltros">Diseño UX</button>
         </div>
-        <div class="contVideos">
-            <div class="contVideo">
-                <img class="imgPortada" src="https://www.lyricsgoo.com/wp-content/uploads/2020/06/Wild-Lyrics-John-Legend-Gary-Clark-Jr.jpg" alt="">
-                <p class="textMinutos">13:55</p>
-            </div>
-            <div class="contInfo">
-                <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt="">
-                <div class="contDescription">
-                    <h2 class="titleVideo">John Legend, Gary Clark Jr. - Wild (Official Audio)</h2>
-                    <h4 class="titleAutor"></h4>
-                    <h4 class="views">11.698.762 Vistas - 12-05-2008</h4>
-                </div>
-            </div>
+        <div class="contVideos" id="contVideos">
+
         </div>
     </main>
-    
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
